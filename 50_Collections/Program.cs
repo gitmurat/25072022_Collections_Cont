@@ -11,6 +11,18 @@
             queue.Enqueue("Mert");
             queue.Enqueue("Larissa");
 
+            /*foreach (var item in queue) her bir item'ı görmek için for veya foreach loop kullanılabilir.
+            {
+                Console.WriteLine(item);
+            }
+            
+            for (int i = 0; i < queue.Count; i++)
+            {
+                ConsoleWriteLine(queue.ElementAt(i));
+            }
+
+             */
+
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Peek()); //does not remove item from the queue just shows it
@@ -33,6 +45,11 @@
             Console.WriteLine(stack.Peek());
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
+
+            foreach(var item in queue)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
