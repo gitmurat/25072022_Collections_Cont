@@ -25,7 +25,7 @@
 
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Dequeue());
-            Console.WriteLine(queue.Peek()); //does not remove item from the queue just shows it
+            Console.WriteLine(queue.Peek()); //Peek kuyruktan çıkarmadan sıradaki öğeyi görmeyi sağlar
             Console.WriteLine(queue.Peek());
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Dequeue());
@@ -41,7 +41,7 @@
 
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.Peek()); //does not remove item from stack just shows it.
+            Console.WriteLine(stack.Peek()); //Peek kuyruktan çıkarmadan sıradaki öğeyi görmeyi sağlar
             Console.WriteLine(stack.Peek());
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
